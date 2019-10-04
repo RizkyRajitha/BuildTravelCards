@@ -1,28 +1,42 @@
 button {
-  height: 5vh;
-  width: 10vw;
-  background: none;
-  align-self: center;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.25s;
+    height: 5vh;
+    width: 10vw;
+    background: none;
+    align-self: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.25s;
 }
 
 button:active {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
-button:hover, button:focus { 
-  border-color: gray;
+button:hover,
+button:focus {
+    border-color: gray;
 }
 
 .fill:hover,
 .fill:focus {
-  box-shadow: inset 0 0 0 2em gray;
+    box-shadow: inset 0 0 0 2em gray;
 }
 
 .raise:hover,
 .raise:focus {
-  box-shadow: 0 0.5em 0.5em -0.4em gray;
-  transform: translateY(-0.25em);
+    box-shadow: 0 0.5em 0.5em -0.4em gray;
+    transform: translateY(-0.25em);
+}
+
+.trips-wrap {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.trips-cards-wrap {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.heading {
 }

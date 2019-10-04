@@ -1,20 +1,20 @@
 import React from 'react'
-
+import './header.css'
 const Header = () => (
-    <div className="header-wrap">
+    <header className="header-wrap">
         <nav>
             <ul className="nav-bar">
                 <div className="opt-wrapper">
-                    <option className="nav-option">about</option>
+                    <option className="nav-option">ABOUT</option>
                 </div>
                 <div className="opt-wrapper">
-                    <option className="nav-option">explore</option>
+                    <option className="nav-option">EXPLORE</option>
                 </div>
                 <div className="opt-wrapper">
-                    <option className="nav-option">faqs</option>
+                    <option className="nav-option">FAQ</option>
                 </div>
                 <div className="opt-wrapper">
-                    <option className="nav-option">contact</option>
+                    <option className="nav-option">CONTACT</option>
                 </div>
                 <div className="opt-wrapper">
                     <a
@@ -26,7 +26,7 @@ const Header = () => (
                 </div>
             </ul>
         </nav>
-    </div>
+    </header>
 )
 
 export default Header

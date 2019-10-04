@@ -1,0 +1,32 @@
+.landingpagefooter {
+    margin: 0 auto;
+    height: 10vh;
+    width: 90%;
+    text-align: center;
+}
+
+.landingpagefooterdiv {
+    display: flex;
+    padding: 20px 40px;
+    border-radius: 5px;
+    /* margin-left: 1000px; */
+    box-shadow: 0px 1px 5px #555;
+}
+
+.landingpagefooterdivitembr {
+    flex: 3;
+    /* justify-content: space-around !important; */
+}
+
+.landingpagefooterdivitem {
+    color: #000000;
+    flex: 1;
+    justify-content: space-around !important;
+}
+
+.landingpagefooterdivitemlink {
+    color: #000000;
+    flex: 0.7;
+    justify-content: space-around !important;
+    text-decoration: none
+}
