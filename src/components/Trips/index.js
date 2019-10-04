@@ -3,8 +3,8 @@ import response from '../../response/response'
 import Card from '../Card'
 import './trips.css'
 
-const initialTripsNum = 6
-const newTripsNum = 6
+const initialTripsNum = 20
+const newTripsNum = 20
 const initialNextTripsNum = initialTripsNum + newTripsNum
 
 function Trips() {

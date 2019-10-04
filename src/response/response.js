@@ -1,4 +1,3 @@
-
 const response = [
     {
         name: 'Weekend in Vegas',
@@ -100,13 +99,24 @@ const response = [
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
     },
     {
-      name: 'Decadent Week in Cape Town',
-      image: 'cape-town.jpg',
-      dateFrom: 'Oct 13th 2019',
-      dateTo: 'Oct 18th 2019',
-      guests: 4,
-      category: 'adventure',
-      copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+        name: 'Decadent Week in Cape Town',
+        image: 'cape-town.jpg',
+        dateFrom: 'Oct 13th 2019',
+        dateTo: 'Oct 18th 2019',
+        guests: 4,
+        category: 'adventure',
+        copy:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a maximus dolor. Sed iaculis luctus metus a mattis.'
+    },
+    {
+        name: 'chill in Sri lanka',
+        image: 'Srilanka.jpg',
+        dateFrom: 'Oct 1th 2019',
+        dateTo: 'Oct 30th 2019',
+        guests: 4,
+        category: 'adventure',
+        copy:
+            'Sri Lanka, officially the Democratic Socialist Republic of Sri Lanka, is an island country in South Asia, located in the Indian Ocean to the southwest of the Bay of Bengal and to the southeast of the Arabian Sea. The island is geographically separated from the Indian subcontinent by the Gulf of Mannar and the Palk Strait. The legislative capital, Sri Jayawardenepura Kotte, is a suburb of the commercial capital and largest city, Colombo'
     }
 ]
 
